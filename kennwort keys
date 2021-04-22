@@ -1,0 +1,35 @@
+antialiasing
+
+keytool -genkey -v -keystore T:\Bildung\Code\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
+
+
+
+T:\Bildung\Code\key.jks
+
+
+https://flutter.dev/docs/deployment/android
+
+create  <app dir>/android/key.properties with:
+
+storePassword=antialiasing
+keyPassword=antialiasing
+keyAlias=key
+storeFile=T:\Bildung\Code\key.jks
+
+
+--------------------------------
+neuer versuch: 
+
+
+keytool -genkey -v -keystore c:\Users\tadeo\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
+
+
+storePassword=antialiasing
+keyPassword=antialiasing
+keyAlias=key
+storeFile=/Users/tadeo/key.jks
+
+
+copy key.jks in folder: T:\Bildung\Code\2021-01-11-flutter-chessclock\chessclock\android\app
+
+flutter build appbundle
