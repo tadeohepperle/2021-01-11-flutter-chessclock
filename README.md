@@ -1,16 +1,22 @@
-# chessclock
+# Chess Clock - for Blitz, Bullet, Rapid and Classical
 
-A new Flutter project.
+Features:
+- Time Control
+- Colored Bar indicating time
+- Delay and Increment
 
-## Getting Started
+## Check out in Playstore:
 
-This project is a starting point for a Flutter application.
+Available here:
+https://play.google.com/store/apps/details?id=com.thappsmedia.thappsmediachessclock&gl=DE
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<div style="display: flex">
+<div>
+<img src="https://user-images.githubusercontent.com/62739623/177975536-ecade385-24e2-4e6b-973c-381a8367efcb.png" style="width: 50%" ></img>
+</div>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div>
+<img src="https://user-images.githubusercontent.com/62739623/177975635-9fda514c-b0ff-4ac7-a21d-247b51b45d82.png" style="width: 50%" ></img>
+</div>
+</div>
